@@ -5,13 +5,13 @@ const ProductSchema = mongoose.Schema({
         required : [true,"please enter a name "]
     },
     quantity :{
-        type : number ,
+        type : Number ,
         required :true,
         default : 0
     },
 
     price :{
-        type : number ,
+        type : Number ,
         required : true,
         default : 0
     },
